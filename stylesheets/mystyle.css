@@ -1,0 +1,71 @@
+body
+{
+    margin:0 auto;
+    padding: auto;
+}
+#quote-1
+{
+    display: grid;
+    justify-content: center;
+    font-family: cursive;
+}
+
+#container
+{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#container-left
+{
+    display: grid;
+    justify-content: center;
+}
+.arrow-down {
+    width: 0; 
+    height: 0; 
+    margin: 0 auto;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid rgb(230, 230, 250);
+    
+}
+#name
+{
+    display: grid;
+    justify-content: center ;
+}
+#container-right
+{
+    display: grid;
+    /* background-color: ghostwhite; */
+    justify-content: center;
+    width:100%;
+}
+
+.timeline
+{
+    font-size: larger;
+    margin-bottom: auto;
+    background-color: ghostwhite;
+}
+.year
+{
+    font-weight: bolder;
+    margin-right: 15px;
+}
+img
+{
+    margin-top: 50px;
+}
+
+.primary-table
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+.secondary-table
+{
+    display: grid;
+    justify-content: center;
+}
